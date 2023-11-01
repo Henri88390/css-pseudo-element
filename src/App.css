@@ -1,9 +1,12 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 100px;
   gap: 16px;
   padding: 10px;
+}
+
+.submit {
+  width: 100px;
 }
 
 .input {
@@ -18,4 +21,8 @@
 .required::after {
   content: "*";
   color: red;
+}
+
+.div3 {
+  display: inline-block;
 }
