@@ -19,6 +19,11 @@ const App = () => {
         <span className="span1">This is a span</span>
         <span className="span2">This is a second span</span>
       </div>
+      <div className="flexbox-container">
+        <div className="flexbox-item flexbox-item-1"></div>
+        <div className="flexbox-item flexbox-item-2"></div>
+        <div className="flexbox-item flexbox-item-3"></div>
+      </div>
     </>
   );
 };
